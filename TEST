@@ -1,1 +1,4 @@
 DO180
+source /usr/share/git-core/contrib/completion/git-prompt.sh
+export PS1='\[\e[1;36m\][\u@\h \W]\[\033[01;34m\]$(__git_ps1)\[\e[0m\]\$ '
+

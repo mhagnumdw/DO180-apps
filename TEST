@@ -2,3 +2,16 @@ DO180
 source /usr/share/git-core/contrib/completion/git-prompt.sh
 export PS1='\[\e[1;36m\][\u@\h \W]\[\033[01;34m\]$(__git_ps1)\[\e[0m\]\$ '
 
+ 173  dnf install python3-gobject python3-configobj python3-psutil vte291  keybinder3 intltool gettext 
+  174  sudo dnf install python3-gobject python3-configobj python3-psutil vte291  keybinder3 intltool gettext 
+  175  python3 terminator --help
+  176  git clone git@github.com:gnome-terminator/terminator.git
+  177  git clone https://github.com/gnome-terminator/terminator.git
+  178  cd terminator/
+  179  python3 setup.py build
+  180  python3 setup.py install --single-version-externally-managed --record=install-files.txt
+  181  sudo python3 setup.py install --single-version-externally-managed --record=install-files.txt
+  182  terminator 
+  183  history 
+
+
